@@ -13,20 +13,20 @@ public class Exercicio01 {
         System.out.println("Digite um numero: ");
         int n1 = ler.nextInt();
         int i = 0;
-        boolean resul = Perfeito(n1, true, i, i);
+        int soma = 0;
+        boolean resul = Perfeito(n1, true, i, soma);
         System.out.println("Seu numero é perfeito? "+ resul);
         
     }
     public static boolean Perfeito(int n1, boolean verificação, int i, int soma){
-        while(n1<n1){
+        if(soma>n1){
+            verificação = false;
+  }else{
+        while(soma<n1){
             soma = (n1+i);
             i++;
         }
-        if(n1==n1){
-            verificação = true;
-  }else{
-            verificação = false;
-        
+        verificação = false;
 }
         return(verificação);
     }
