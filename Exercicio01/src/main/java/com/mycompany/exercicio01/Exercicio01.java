@@ -19,14 +19,15 @@ public class Exercicio01 {
         
     }
     public static boolean Perfeito(int n1, boolean verificação, int i, int soma){
-        if(soma>n1){
-            verificação = false;
-  }else{
-        while(soma<n1){
+        while(n1<n1){
             soma = (n1+i);
             i++;
         }
-        verificação = false;
+        if(n1==n1){
+            verificação = true;
+  }else{
+            verificação = false;
+        
 }
         return(verificação);
     }
