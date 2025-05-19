@@ -25,8 +25,8 @@ public class Exercicio02 {
             if (caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U'){
             i++;   
             
-            palavraComAsteriscos = palavraComAsteriscos + "*";
         }
+            palavraComAsteriscos = palavraComAsteriscos + "*";
             
         }while(i < palavra.length());
 

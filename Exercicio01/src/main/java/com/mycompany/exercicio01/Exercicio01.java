@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 //Crie um método que receba um número inteiro e retorne true se 
-//for um número perfeito (a soma de seus divisores próprios é igual ao número, ex: 6 = 1 + 2 + 3).
+//for um número perfeito (a soma de seus divisores próprios é igual ao número, ex: 6 = 1 + 2 + 3)
     public static void main(String[] args) {
         Scanner ler = new Scanner (System.in);
         System.out.println("Digite um numero: ");
